@@ -1,4 +1,4 @@
-package com.servicenow.sample.utils.layoutmanager;
+package com.servicenow.sample.utils;
 
 /**
  * Created by Ashutosh Srivastava on 24-Mar-2021 1:02 PM.

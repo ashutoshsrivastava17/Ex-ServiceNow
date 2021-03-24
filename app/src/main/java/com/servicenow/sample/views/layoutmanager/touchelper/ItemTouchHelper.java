@@ -1,4 +1,4 @@
-package com.servicenow.sample.utils.layoutmanager.touchelper;
+package com.servicenow.sample.views.layoutmanager.touchelper;
 
 import android.animation.Animator;
 import android.animation.ValueAnimator;
@@ -25,8 +25,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.RecyclerView.ViewHolder;
 
 import com.servicenow.sample.R;
-import com.servicenow.sample.utils.layoutmanager.SwipeableTouchHelperCallback;
-import com.servicenow.sample.utils.layoutmanager.touchelper.ItemTouchUIUtilImpl;
+import com.servicenow.sample.views.layoutmanager.SwipeableTouchHelperCallback;
 
 import java.util.ArrayList;
 import java.util.List;

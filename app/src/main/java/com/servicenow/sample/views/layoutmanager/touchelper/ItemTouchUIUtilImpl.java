@@ -1,4 +1,4 @@
-package com.servicenow.sample.utils.layoutmanager.touchelper;
+package com.servicenow.sample.views.layoutmanager.touchelper;
 
 import android.graphics.Canvas;
 import android.view.View;

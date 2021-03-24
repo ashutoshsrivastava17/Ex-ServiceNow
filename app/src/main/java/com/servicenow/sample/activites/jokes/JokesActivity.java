@@ -14,10 +14,10 @@ import com.servicenow.sample.R;
 import com.servicenow.sample.activites.base.BaseActivity;
 import com.servicenow.sample.databinding.ActivityJokesBinding;
 import com.servicenow.sample.repository.database.models.Joke;
-import com.servicenow.sample.utils.layoutmanager.OnItemSwiped;
-import com.servicenow.sample.utils.layoutmanager.SwipeableLayoutManager;
-import com.servicenow.sample.utils.layoutmanager.SwipeableTouchHelperCallback;
-import com.servicenow.sample.utils.layoutmanager.touchelper.ItemTouchHelper;
+import com.servicenow.sample.views.layoutmanager.OnItemSwiped;
+import com.servicenow.sample.views.layoutmanager.SwipeableLayoutManager;
+import com.servicenow.sample.views.layoutmanager.SwipeableTouchHelperCallback;
+import com.servicenow.sample.views.layoutmanager.touchelper.ItemTouchHelper;
 
 import java.util.Stack;
 

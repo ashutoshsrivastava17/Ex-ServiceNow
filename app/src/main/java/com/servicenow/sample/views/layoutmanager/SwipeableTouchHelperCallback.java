@@ -1,12 +1,11 @@
-package com.servicenow.sample.utils.layoutmanager;
+package com.servicenow.sample.views.layoutmanager;
 
 import android.graphics.Canvas;
-import android.util.Log;
 import android.view.View;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.servicenow.sample.utils.layoutmanager.touchelper.ItemTouchHelper;
+import com.servicenow.sample.views.layoutmanager.touchelper.ItemTouchHelper;
 
 public class SwipeableTouchHelperCallback extends ItemTouchHelper.Callback {
 

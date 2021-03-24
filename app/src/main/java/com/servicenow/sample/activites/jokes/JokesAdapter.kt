@@ -11,7 +11,7 @@ import com.servicenow.sample.repository.database.models.Joke
  * Project : Ex-ServiceNow
  * Copyright (c) 2021  All rights reserved.
  */
-class JokesAdapter(context: Context) : BaseRecyclerAdapter<Joke?, ItemJokeBinding?, JokeItemViewHolder?>(context) {
+class JokesAdapter(context: Context) : BaseRecyclerAdapter<Joke?, ItemJokeBinding?, JokeItemVH?>(context) {
 
     fun removeTopItem(): Joke {
         val joke = getItems()[0]!!
@@ -20,8 +20,8 @@ class JokesAdapter(context: Context) : BaseRecyclerAdapter<Joke?, ItemJokeBindin
         return joke
     }
 
-    override fun getViewHolder(binding: ItemJokeBinding?): JokeItemViewHolder {
-        return JokeItemViewHolder(binding)
+    override fun getViewHolder(binding: ItemJokeBinding?): JokeItemVH {
+        return JokeItemVH(binding)
     }
 
     override fun getLayoutId(viewType: Int): Int {

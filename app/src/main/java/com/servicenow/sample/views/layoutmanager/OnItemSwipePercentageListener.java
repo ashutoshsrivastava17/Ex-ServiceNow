@@ -1,4 +1,4 @@
-package com.servicenow.sample.utils.layoutmanager;
+package com.servicenow.sample.views.layoutmanager;
 
 public interface OnItemSwipePercentageListener {
 

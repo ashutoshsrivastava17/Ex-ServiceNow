@@ -8,8 +8,8 @@ import androidx.room.RoomDatabase;
 
 import com.servicenow.sample.repository.database.models.Joke;
 
-import static com.servicenow.sample.utils.layoutmanager.IDatabaseConstants.DATABASE_NAME;
-import static com.servicenow.sample.utils.layoutmanager.IDatabaseConstants.DATABASE_VERSION;
+import static com.servicenow.sample.utils.IDatabaseConstants.DATABASE_NAME;
+import static com.servicenow.sample.utils.IDatabaseConstants.DATABASE_VERSION;
 
 @Database(entities = {
         Joke.class

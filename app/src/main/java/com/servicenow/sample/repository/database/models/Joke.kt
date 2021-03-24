@@ -3,7 +3,7 @@ package com.servicenow.sample.repository.database.models
 import androidx.room.Entity
 import androidx.room.Ignore
 import androidx.room.PrimaryKey
-import com.servicenow.sample.utils.layoutmanager.IDatabaseConstants
+import com.servicenow.sample.utils.IDatabaseConstants
 import org.jetbrains.annotations.NotNull
 
 /**

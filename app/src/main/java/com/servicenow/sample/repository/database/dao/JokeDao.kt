@@ -5,7 +5,7 @@ import androidx.room.Dao
 import androidx.room.Query
 import androidx.room.Transaction
 import com.servicenow.sample.repository.database.models.Joke
-import com.servicenow.sample.utils.layoutmanager.IDatabaseConstants
+import com.servicenow.sample.utils.IDatabaseConstants
 
 @Dao
 interface JokeDao : IBaseDao<Joke> {
