@@ -50,8 +50,10 @@ public class JokesActivity extends BaseActivity<ActivityJokesBinding, JokesViewM
 
         getIntentExtras();
 
+        //~~~ Setting Refresh listener on Swipe Layout
         getViewDataBinding().swipeLayout.setOnRefreshListener(this);
 
+        //~~~ Setting up Joke Recycler View
         ItemTouchHelper itemTouchHelper = new ItemTouchHelper(swipeableTouchHelperCallback);
         itemTouchHelper.attachToRecyclerView(getViewDataBinding().rvJokes);
         getViewDataBinding().rvJokes.setLayoutManager(new SwipeableLayoutManager().setAngle(10)
@@ -60,9 +62,11 @@ public class JokesActivity extends BaseActivity<ActivityJokesBinding, JokesViewM
                 .setScaleGap(0.1f)
                 .setTransYGap(0));
 
+        //~~~ Setting up adapter on RecyclerView
         jokesAdapter = new JokesAdapter(this);
         getViewDataBinding().rvJokes.setAdapter(jokesAdapter);
 
+        //~~~ Fetching Random Jokes from Database
         getViewModel().getRandomJokeFromDB().observe(this, jokes -> {
             jokesAdapter.addItems(jokes);
         });
