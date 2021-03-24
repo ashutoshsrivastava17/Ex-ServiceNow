@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ex-ServiceNow</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="submit">Submit</string>
+
+    <string name="ok">OK</string>
+    <string name="error">Error!</string>
+
+</resources>
